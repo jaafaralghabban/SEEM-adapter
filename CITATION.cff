@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "RBA: A Read-out Basis Adapter for Parameter-Efficient Interactive OCTA Vessel Segmentation with SEEM"
+type: software
+authors:
+  - family-names: Al-Ghabban
+    given-names: Jaafar M.
+    orcid: "https://orcid.org/0000-0003-3562-0034"
+    affiliation: "School of Computer Engineering, Iran University of Science and Technology"
+  - family-names: Mohammadi
+    given-names: Mohammad Reza
+    orcid: "https://orcid.org/0000-0002-1016-9243"
+    affiliation: "School of Computer Engineering, Iran University of Science and Technology"
+repository-code: "https://github.com/jaafaralghabban/seem-octa"
+license: MIT
+version: "1.0.0"
+preferred-citation:
+  type: article
+  title: "RBA: A Read-out Basis Adapter for Parameter-Efficient Interactive OCTA Vessel Segmentation with SEEM"
+  authors:
+    - family-names: Al-Ghabban
+      given-names: Jaafar M.
+    - family-names: Mohammadi
+      given-names: Mohammad Reza
+  year: 2026
+  journal: "Preprint submitted to Elsevier"

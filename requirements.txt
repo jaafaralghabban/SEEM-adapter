@@ -1,0 +1,42 @@
+# Versions of the environment the paper was run in (Python 3.10, Windows, CUDA 12.1).
+# PyTorch first, from the CUDA 12.1 index:
+#   pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu121
+# Detectron2, as used by SEEM:
+#   pip install "git+https://github.com/MaureenZOU/detectron2-xyz.git"
+numpy==1.26.4
+scipy==1.15.2
+scikit-image==0.21.0
+scikit-learn==1.3.1
+opencv-python==4.8.1.78
+pillow==9.5.0
+matplotlib==3.10.1
+pandas==2.0.3
+tqdm==4.67.1
+pyyaml==6.0.1
+cython==3.0.2
+# required by SEEM v1.0
+transformers==4.34.0
+tokenizers==0.14.1
+huggingface-hub==0.17.3
+timm==0.4.12
+einops==0.8.1
+fvcore==0.1.5.post20221221
+pycocotools==2.0.7
+json-tricks==3.17.3
+yacs==0.1.8
+ftfy==6.1.1
+regex==2023.10.3
+nltk==3.8.1
+sentencepiece==0.1.99
+vision-datasets==0.2.2
+diffdist==0.1
+infinibatch==0.1.1
+kornia==0.7.0
+mup==1.0.0
+shapely==1.8.5.post1
+cityscapesscripts==2.2.2
+pyarrow==13.0.0
+openai-whisper==20240930
+accelerate==0.23.0
+# SEEM's utils/distributed.py imports mpi4py; on Windows it also needs Microsoft MPI
+mpi4py==3.1.5
