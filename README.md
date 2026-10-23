@@ -64,8 +64,8 @@ RBA against Conv-LoRA r=16 on the other targets and datasets (Dice@4, paired ove
 The code was run with Python 3.10, PyTorch 2.1.0 (CUDA 12.1) and Detectron2 0.6, on one NVIDIA RTX 3070 Laptop GPU (8 GB) under Windows.
 
 ```bash
-git clone https://github.com/jaafaralghabban/seem-octa.git
-cd seem-octa
+git clone https://github.com/jaafaralghabban/SEEM-adapter.git
+cd SEEM-adapter
 conda env create -f environment.yml
 conda activate rba-seem
 pip install "git+https://github.com/MaureenZOU/detectron2-xyz.git"     # Detectron2 as used by SEEM
